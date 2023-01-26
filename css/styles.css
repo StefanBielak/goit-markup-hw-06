@@ -630,4 +630,35 @@ line-height: 23px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+padding-top: 40px;
+padding-bottom: 12px;
+}
+.lable-form{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  position: relative;
+}
+.textplace{
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+  margin-top: 4px;
+}
+.lable-icon{
+  position: absolute;
+}
+.textarea{
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 120px;
+  margin-top: 4px;
+  resize: none;
 }

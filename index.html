@@ -333,27 +333,28 @@
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>x</button>
         <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
-        <div class="modal-form">
         <form>
-          <label>
+          <label class="lable-form">
             Imię
-            <input type="name" name="firstname">
+            <svg class="lable-icon" wideth="12" height="12">
+              <use href="/images/icons.svg#icon-Vector"></use>
+            </svg> 
+            <input class="textplace" type="name" name="firstname" placeholder="iconbefore">
           </label>
-          <label>
+          <label class="lable-form">
             Telefon
-            <input type="phone_number" name="phone_number">
+            <input class="textplace" value="icon-Vector" type="phone_number" name="phone_number">
           </label>
-          <label>
+          <label class="lable-form">
             Email
-            <input type="email-adress" neme="email">
+            <input class="textplace" type="email-adress" neme="email">
           </label>
-          <label>
+          <label class="lable-form">
             Komentarz
-            <textarea type="text" name="coments" rows="4" placeholder="Wprowadź tekst">
+            <textarea class="textarea" type="text" name="coments" rows="4" placeholder="Wprowadź tekst">
             </textarea>
           </label>
         </form>
-        </div>
       </div>
     </div>
     <script src="js/modal.js" ></script>
