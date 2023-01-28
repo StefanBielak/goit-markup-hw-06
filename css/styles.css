@@ -600,7 +600,12 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 padding-left: 16px;
 }
-.newsletter-but{
+.newsletter-sign{
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -611,14 +616,8 @@ height: 50px;
 gap: 24px;
 padding-left: 42px;
 padding-right: 28px;
+cursor: pointer;
 border: none;
-}
-.newsletter-sign{
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.06em;
-color: #FFFFFF;
 }
 .newsletter-icon{
   fill:#FFFFFF;
@@ -716,4 +715,39 @@ padding-left: 76px;
 padding-right: 76px;
 justify-content: center;
 margin-left: 164px;
+cursor: pointer;
+}
+.form-button:hover,
+.form-button:focus,
+.form-button:active{
+  color:#2196f3;
+  background-color: #FFFFFF;
+}
+.newsletter-sign:hover,
+.newsletter-sign:focus,
+.newsletter-sign:active{
+  background-color: #FFFFFF;
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.newsletter-icon:hover,
+  .newsletter-icon:focus,
+  .newsletter-icon:active{
+  background-color: #FFFFFF;
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-face:hover,
+.form-face:focus,
+.form-face:active{
+  fill:#2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textplace:hover,
+.textplace:focus,
+.textplace:active{
+  border-color: #2196F3;
 }
