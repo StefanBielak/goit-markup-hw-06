@@ -694,6 +694,8 @@ padding-top: 20px;
 .bottom-form-icon{
   fill: #212121;
   padding-top: 4px;
+  position: relative;
+  cursor: pointer;
 }
 .form-button{
 font-weight: 700;
@@ -751,3 +753,25 @@ cursor: pointer;
 .textplace:active{
   border-color: #2196F3;
 }
+.bottom-form-iconactive{
+  fill:var(--background-icon);
+  background-color: #2196F3;
+  padding-top: 4px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  position: absolute;
+  left: 49px;
+  border-radius: 2px;
+  bottom: 107px;
+  border: none;
+  opacity: 0%;
+  cursor: pointer;
+}
+.bottom-form-iconactive:active{
+  opacity: 100%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
