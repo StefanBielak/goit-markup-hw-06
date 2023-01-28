@@ -644,16 +644,30 @@ padding-bottom: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: #757575;
-  position: relative;
 }
 .textplace{
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
+  width: 448px;
   margin-top: 4px;
+  text-indent: 42px;
+  position: relative;
 }
-.lable-icon{
+.lable-icon-face{
   position: absolute;
+  top: 107px;
+  left: -85px;
+}
+.lable-icon-phone{
+  position: absolute;
+  top: 178px;
+  left: -85px;
+}
+.lable-icon-mail{
+  position: absolute;
+  top: 247px;
+  left: -85px;
 }
 .textarea{
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -661,4 +675,45 @@ padding-bottom: 12px;
   height: 120px;
   margin-top: 4px;
   resize: none;
+  text-indent: 0px;
+}
+.bottom-form{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+gap: 8px;
+padding-top: 20px;
+}
+.special-declaration{
+  text-decoration: underline;
+  color: #2196f3;
+}
+.bottom-form-icon{
+  fill: #212121;
+  padding-top: 4px;
+}
+.form-button{
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196f3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;
+margin-top: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 76px;
+padding-right: 76px;
+justify-content: center;
+margin-left: 164px;
 }

@@ -336,25 +336,38 @@
         <form>
           <label class="lable-form">
             Imię
-            <svg class="lable-icon" wideth="12" height="12">
-              <use href="/images/icons.svg#icon-Vector"></use>
+            <input class="textplace" type="name" name="firstname">
+            <svg class="lable-icon-face" wideth="12" height="12">
+              <use href="images/icons.svg#icon-Vector"></use>
             </svg> 
-            <input class="textplace" type="name" name="firstname" placeholder="iconbefore">
           </label>
           <label class="lable-form">
             Telefon
-            <input class="textplace" value="icon-Vector" type="phone_number" name="phone_number">
+            <input class="textplace" type="phone_number" name="phone_number">
+            <svg class="lable-icon-phone" wideth="12" height="12">
+              <use href="images/icons.svg#icon-Vector-2"></use>
+            </svg>
           </label>
           <label class="lable-form">
             Email
             <input class="textplace" type="email-adress" neme="email">
+            <svg class="lable-icon-mail" wideth="12" height="12">
+              <use href="images/icons.svg#icon-Vector-3"></use>
+            </svg>
           </label>
           <label class="lable-form">
             Komentarz
-            <textarea class="textarea" type="text" name="coments" rows="4" placeholder="Wprowadź tekst">
+            <textarea class="textarea" type="text" name="coments" placeholder="Wprowadź tekst">
             </textarea>
           </label>
         </form>
+        <div class="bottom-form">
+          <svg width="16" height="15" class="bottom-form-icon">
+          <use href="images/icons.svg#icon-Vector-5"></use>
+        </svg>
+        Oświadczam iż akceptuję<span class="special-declaration">Regulamin</span>i<span class="special-declaration">Politykę Prywatności.</span>
+      </div>
+      <button class="form-button">Wyślij</button>
       </div>
     </div>
     <script src="js/modal.js" ></script>
