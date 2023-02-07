@@ -321,9 +321,9 @@
           <button class="newsletter-but">
             <a class="newsletter-sign">
               Zapisz się
-            <svg class="newsletter-icon" width="24" height="24">
+              <svg class="newsletter-icon" width="24" height="24">
               <use href="images/icons.svg#icon-icon-send"></use>
-            </svg>
+              </svg>
             </a>
           </button>
           </div>
@@ -336,49 +336,46 @@
         <button type="button" class="close-btn" data-modal-close>x</button>
         <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
         <form>
-          <label class="lable-form">
+          <label class="form-label">
             Imię
             <div class="form-face">
             <input class="textplace" type="name" name="firstname">
-             <svg class="lable-icon-face" wideth="12" height="12">
+             <svg class="lable-icon-face" width="12" height="12">
               <use href="images/icons.svg#icon-Vector"></use>
             </svg> 
             </div>
           </label>
-          <label class="lable-form">
+          <label class="form-label">
             Telefon
             <div class="form-face">
             <input class="textplace" type="phone_number" name="phone_number">
-            <svg class="lable-icon-phone" wideth="12" height="12">
+            <svg class="lable-icon-phone" width="12" height="12">
               <use href="images/icons.svg#icon-Vector-2"></use>
             </svg>
             </div>
           </label>
-          <label class="lable-form">
+          <label class="form-label">
             Email
             <div class="form-face">
             <input class="textplace" type="email-adress" neme="email">
-            <svg class="lable-icon-mail" wideth="12" height="12">
+            <svg class="lable-icon-mail" width="12" height="12">
               <use href="images/icons.svg#icon-Vector-3"></use>
             </svg>
             </div>
           </label>
-          <label class="lable-form">
+          <label class="form-label">
             Komentarz
             <textarea class="textarea" type="text" name="coments" placeholder="Wprowadź tekst">
             </textarea>
           </label>
         </form>
         <div class="bottom-form">
-          <svg width="16" height="15" class="bottom-form-icon">
-          <use href="images/icons.svg#icon-Vector-5"></use>
-        </svg>
-        <svg width="11" height="8" class="bottom-form-iconactive">
-          <use href="images/icons.svg#icon-Vector-4"></use>
-        </svg>
-        Oświadczam iż akceptuję<span class="special-declaration">Regulamin</span>i<span class="special-declaration">Politykę Prywatności.</span>
+          <lable>
+          <input type="checkbox" class="checkbox" name="accept" value="regulamin" unchecked />
+          Oświadczam iż akceptuję <a class=form-link href="regu.pl">Regulamin</a> i <a class=form-link href="polipriv.pl">Politykę Prywatności.</a>
+          </lable>
       </div>
-      <button class="form-button">Wyślij</button>
+      <button class="form-button" type="submit">Wyślij</button>
       </div>
     </div>
     <script src="js/modal.js" ></script>
